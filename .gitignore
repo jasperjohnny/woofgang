@@ -9,3 +9,5 @@ wp-content/*
 # Ignore everything in the "themes" directory, except the themes you specify
 wp-content/themes/*
 !wp-content/themes/wgcw/
+
+.DS_Store
