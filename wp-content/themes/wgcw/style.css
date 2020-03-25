@@ -1,0 +1,31 @@
+/* https://mycolor.space/?hex=%23EC008C&sub=1 */
+
+/*Colors*/
+.pink { color: #ec008c; }
+.grey { color: #666; }
+.white { color: #fff; }
+.bg-pink { background-color: #ec008c; }
+.bg-light-grey { background-color: #f8f9fa; }
+.bg-dark-grey { background-color: #505759; }
+
+
+/*Elements*/
+a { color: #ec008c; text-decoration: none; }
+a.white { color: #fff; text-decoration: underline; }
+
+ul.paws { list-style: url( '/wp-content/themes/wgcw/images/paw-trans.png' ); }
+img.logo { max-width: }
+
+/*Form Styling*/
+.nf-before-form-content, .nf-after-form-content  { display: none; }
+form .nf-error .nf-error-msg, form .nf-error-msg { color: #fff; }
+.form-control { min-width: 100px; }
+@media (min-width: 576px) {
+    nf-fields-wrap { display: flex; justify-content: center; }
+    nf-field { margin: .2rem; }
+    .form-control { min-width: 70px; }
+}
+
+@media (max-width: 576px) {
+    h1 { font-size: 2rem; }
+}
